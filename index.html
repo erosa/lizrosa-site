@@ -37,7 +37,10 @@
               <a class="nav-link js-scroll-trigger" href="#work">Professional Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#other">Other Involvement</a>
             </li>
           </ul>
         </div>
@@ -137,21 +140,96 @@
       </div>
     </section>
 
-    <section id="contact" class="bg-light">
+    <section id="projects" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Major Projects</h2>
+
+            <h5 class="mt-5"><strong>Teamtask:</strong> API, website, and iOS app</h5>
+            <h6>Senior Project</h6>
+            <p>
+              <ul>
+                <li>Complete platform designed to make task assignment easy for organization leaders, and to encourage compliance among organization members</li>
+                <li>API spec written in <a href="https://swagger.io">Swagger</a> as a declarative source of truth for what resources and methods should look like</li>
+                <li>API requests proxied by AWS API Gateway to AWS Lambda functions written in Node with <a href="https://vandium.io/">Vandium</a> secure layer</li>
+                <li>Data stored in normalized form on MySQL, hosted by AWS RDS</li>
+                <li>User registration and authentication provided by AWS Cognito and its JavaScript SDK</li>
+                <li>Web app written in ReactJS with <a href="https://mobx.org/">MobX</a> state management and <a href="http://getbootstrap.com/">Bootstrap</a> aesthetics and hosted using AWS S3 static sites</li>
+                <li>Mobile client written in pure Swift with appropriate SDKs </li>
+              </ul>
+            </p>
+            <p>Major technologies and tools: ReactJS with mobx, Node.js with Vandium, npm, Bootstrap/reactstrap, AWS Lambda, AWS Cognito, AWS API Gateway, AWS S3 static site hosting, AWS Route53, AWS CloudFront, MySQL, Swagger</p>
+            <p class="text-muted"><i>April&ndash;June 2018</i></p>
+
+            <h5 class="mt-5"><strong>Searching for Similar Programs,</strong> data collection and machine learning</h5>
+            <h6>
+              Data Science Capstone Project
+            </h6>
+
+            <p>
+              <ul>
+                <li>Together with two teammates, collaborated with the <a href="http://www.kestrel.edu">Kestrel Institute</a> to apply machine learning methods to a project</li>
+                <li>Goal: measure similarity of two compiled Java programs without decompiling &mdash; do they solve the same problem?</li>
+                <li>Created a bot which ran on three servers to scrape almost 100,000 user solutions from coding challnge sitess </li>
+                <li>Developed a bash-script pipeline to compile Java code safely using Docker containers, and handed off tarballs to teammate for neural network training</li>
+                <li>Wrote a paper describing the data set and the LTSM Siamese neural network structure we used; it will be submitted to conferences next year</li>
+              </ul>
+            </p>
+            <p>Major technologies and tools: Python3.6, Jupyter notebooks, BeautifulSoup, Docker, bash, Keras.io</p>
+            <p class="text-muted"><i>Jan&ndash;June 2018</i></p>
+
+            <h5 class="mt-5"><strong>Consieuten,</strong> a compiler for C-like syntax</h5>
+            <h6>Programming Languages Final Project</h6>
+            <p>
+              <ul>
+                <li>Developed a compiler in pure Python implementing a C-like language with if statements, while loops, and structs, translating them into IA-32 assembly</li>
+                <li>Conversion to A-Normal Form and lambda lifting are essential steps to streamlining assembly code generation</li>
+                <li>Optimizations will include constant propagation, dead code elimination, and register allocation </li>
+              </ul>
+            </p>
+            <p>Major technologies and tools: Python3.6, nasm, gdb, Puppet & Vagrant, git</p>
+            <p class="text-muted"><i>Apr&ndash;Jun 2018</i></p>
+
+            <h5 class="mt-5"><strong>Scala, Spark, and Seinfeld,</strong> a playful data science project</h5>
+            <h6>Distributed Computing Final Project</h6>
+            <p>
+              <ul>
+                <li>Used Scala with Apache Spark to analyze <a href="https://kaggle.com/thec03u5/seinfeld-chronicles/version/1">every line of dialogue ever spoken in Seinfeld</a></li>
+                <li>Also pulled information from <a href="https://datasets.imdbws.com">IMDb</a> public datasets</li>
+                <li>Performed rudimentary sentiment analysis and investigated the relationship between user IMDb rating and episode sentiment</li>
+                <li>Created visualization in R using <a href="http://ggplot2.tidyverse.org">ggplot2</a></li>
+                <li>Assembled findings into a <a href="https://docs.google.com/presentation/d/1uLZ_8dKP0eLyVzxCJf6Ap8L0WhsfmkhjXY31srGGfW8/edit?usp=sharing">slide deck</a></li>
+              </ul>
+            </p>
+            <p>Major technologies and tools: Scala, Apache Spark, R with ggplot2</p>
+            <p class="text-muted"><i>Mar 2018</i></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="other">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Other Involvement</h2>
-            <p class="lead">Extracurricular and Volunteer</p>
 
             <p>
               <ul>
                 <li>
-                  Cal Poly Women&rsquo;s Ultimate
+                  Instructional Student Assistant
+                  <ul>
+                    <li>Graded homework for CSC 466 Knowledge Discovery from Data</li>
+                    <li>Responsible for developing rubrics, evaluating student work, and offering comments and suggestions for improvement</li>
+                  </ul>
+                <li>
+                  Cal Poly Women&rsquo;s Ultimate Leadership Board
                   <ul>
                     <li><strong>Treasurer,</strong> 2017&ndash;18</li>
                     <li><strong>Captain,</strong> 2016&ndash;17</li>
                     <li><strong>President,</strong> 2015&ndash;16</li>
+                    <li><strong>Website Administrator,</strong> 2015&ndash;perpetuity</li>
                   </ul>
                 </li>
                 <li>Kennedy Library Special Archives LGBTQ+ Oral History Transcriber</li>
@@ -166,7 +244,10 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">
+          This website is hosted by <a href="https://www.linode.com" class="text-light">Linode</a> and served with a Docker <a href="https://hub.docker.com/_/nginx/" class="text-light">container</a> running Nginx.<br />
+          Copyright &copy; Liz Rosa 2018
+        </p>
       </div>
       <!-- /.container -->
     </footer>
