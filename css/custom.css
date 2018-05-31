@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|Permanent+Marker');
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand {
+  font-family: 'Permanent Marker', sans-serif;
+  font-weight: normal;
+  font-size: 18pt;
+}
+
+small {
+  color: rgba(0, 0, 0, 0.5);
+}
